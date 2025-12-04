@@ -1,0 +1,46 @@
+name: handtalk
+description: "handtalk"
+publish_to: "none" # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smooth_page_indicator: ^1.1.0
+  mime: ^1.0.5
+  image_picker: ^1.0.7
+  google_sign_in: ^6.2.1
+  carousel_slider: ^4.2.1
+  video_player: ^2.8.1
+  chewie: ^1.6.0
+  http: ^1.1.0
+  html: ^0.15.6
+  url_launcher: ^6.1.10
+  camera: ^0.10.5+9
+  permission_handler: ^11.3.0
+  path_provider: ^2.1.1
+  cupertino_icons: ^1.0.6
+  table_calendar: ^3.0.6
+  intl: ^0.17.0
+  shared_preferences: ^2.2.2
+  flutter_dotenv: ^5.2.1
+  webview_flutter: ^4.2.2
+  webview_flutter_android: ^4.5.1
+  webview_flutter_wkwebview: ^3.23.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/handNimber.png
+    - .env
+    - assets/ # TFLite 모델 파일이 assets 폴더에 있다면 이 줄만 있어도 됩니다.

@@ -1,0 +1,21 @@
+// 이 파일은 Flutter 프로젝트의 Gradle 설정을 초기화합니다.
+include ':app'
+
+def localProperties = new Properties()
+def localPropertiesFile = new File(rootProject.projectDir, "local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterProjectRoot = localProperties.getProperty("flutter.project.dir")
+if (flutterProjectRoot == null) {
+    throw new GradleException("A local.properties file must be created with the flutter.project.dir key")
+}
+
+// Flutter SDK 경로를 Gradle에 알려줍니다.
+def flutterSdkPath = "$flutterProjectRoot/flutter"
+
+// Flutter SDK에서 Gradle 설정을 가져와 적용합니다.
+apply from: "$flutterSdkPath/.android/settings_aar.gradle"
