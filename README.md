@@ -67,3 +67,4 @@ quiz_data.json	96개 문제(단어 + 영상 URL + 정답) 저장!
 
 ![handtalker1](https://github.com/user-attachments/assets/27e2f3d7-af50-4a78-bc0a-f2e881f86db1)
 [handtalker2](https://github.com/user-attachments/assets/052a0ea2-f3df-4262-83dd-60a6deb0ad75)
+
