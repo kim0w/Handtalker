@@ -246,41 +246,6 @@ handtalk_0507/
 }
 ```
 
----
-
-## 향후 개선 계획
-- [ ] 더 많은 수어 단어 추가 (현재 96개 → 500개+)
-- [ ] 오프라인 모드 지원 (TFLite를 이용한 온디바이스 AI)
-- [ ] 학습 통계 및 진도 대시보드
-- [ ] 소셜 기능 (친구와 점수 경쟁)
-- [ ] 음성 인식 기반 수어 번역 기능
-- [ ] 다국어 지원 (영어, 일본어 등)
-
----
-
-## 라이선스
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
----
-
-## 기여
-이슈 제보 및 풀 리퀘스트를 환영합니다!
-
-1. 이 레포지토리를 Fork 합니다
-2. 새로운 브랜치를 생성합니다 (`git checkout -b feature/amazing-feature`)
-3. 변경사항을 커밋합니다 (`git commit -m 'Add some amazing feature'`)
-4. 브랜치에 Push 합니다 (`git push origin feature/amazing-feature`)
-5. Pull Request를 생성합니다
-
----
-
-## 문의
-프로젝트 관련 문의사항이 있으시면 Issues 탭을 이용해주세요.
-
----
-
-**Made with ❤️ for Korean Sign Language Learners**
-
 
 
 ![handtalker1](https://github.com/user-attachments/assets/27e2f3d7-af50-4a78-bc0a-f2e881f86db1)
